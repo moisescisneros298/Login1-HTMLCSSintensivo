@@ -169,6 +169,15 @@ section .box .container .form .inputbox input[type=submit] {
   cursor: pointer;
   margin-bottom: 20px;
 }
+section .box .container .form .olvidar {
+  margin-top: 5px;
+  color: #fff;
+  padding: 2px;
+}
+section .box .container .form .olvidar a {
+  color: #fff;
+  font-weight: 600;
+}
 
 @keyframes animate {
   0%, 100% {
