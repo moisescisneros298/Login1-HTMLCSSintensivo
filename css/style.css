@@ -21,4 +21,24 @@ section {
 section .color {
   position: absolute;
   filter: blur(150px);
+}
+section .color:nth-child(1) {
+  top: -350px;
+  background: #5c55e6;
+  width: 600px;
+  height: 600px;
+}
+section .color:nth-child(2) {
+  bottom: -150px;
+  left: 100px;
+  background: #4b1c8b;
+  width: 500px;
+  height: 500px;
+}
+section .color:nth-child(3) {
+  bottom: 50px;
+  right: 0;
+  background: #001f6a;
+  width: 300px;
+  height: 600px;
 }/*# sourceMappingURL=style.css.map */
