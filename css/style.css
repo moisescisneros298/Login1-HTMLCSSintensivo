@@ -41,4 +41,51 @@ section .color:nth-child(3) {
   background: #001f6a;
   width: 300px;
   height: 600px;
+}
+section .box .cuadrado {
+  content: "";
+  position: absolute;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  background: rgba(228, 0, 209, 0.1);
+  animation: animate 10s linear;
+  animation-delay: calc(-1s * var(--i));
+}
+section .box .cuadrado:nth-child(1) {
+  top: -50px;
+  right: -60px;
+  width: 100px;
+  height: 100px;
+}
+section .box .cuadrado:nth-child(2) {
+  top: 150px;
+  left: -100px;
+  width: 120px;
+  height: 120px;
+  z-index: 2;
+}
+section .box .cuadrado:nth-child(3) {
+  bottom: 50px;
+  right: -60px;
+  width: 80px;
+  height: 80px;
+  z-index: 2;
+}
+section .box .cuadrado:nth-child(4) {
+  bottom: -80px;
+  left: 100px;
+  width: 50px;
+  height: 50px;
+}
+section .box .cuadrado:nth-child(5) {
+  top: -80px;
+  left: 140px;
+  width: 60px;
+  height: 60px;
+  z-index: 2;
 }/*# sourceMappingURL=style.css.map */
