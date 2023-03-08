@@ -135,6 +135,40 @@ section .box .container .form h2::before {
   background: #fff;
   border-radius: 1px;
 }
+section .box .container .form .inputbox {
+  width: 100%;
+  margin-top: 20px;
+}
+section .box .container .form .inputbox input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 35px;
+  background: rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  outline: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #fff;
+  font-weight: 600;
+}
+section .box .container .form .inputbox input::-moz-placeholder {
+  color: #fff;
+}
+section .box .container .form .inputbox input::placeholder {
+  color: #fff;
+}
+section .box .container .form .inputbox input[type=submit] {
+  background: #fff;
+  color: #666;
+  border: none;
+  font-weight: 600;
+  max-width: 100px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
 
 @keyframes animate {
   0%, 100% {
