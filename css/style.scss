@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    overflow: hidden;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #f1f4f9, #dff1ff );
+    background-size: cover;
+    background-position: center;
+    .color {
+        position: absolute;
+        filter: blur(150px);
+    }
+}
