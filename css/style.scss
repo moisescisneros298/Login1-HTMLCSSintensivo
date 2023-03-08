@@ -88,3 +88,11 @@ section {
         }
     }
 }
+@keyframes animate {
+    0%,100% {
+        transform: translateY(-40px);
+    }
+    50% {
+        transform: translateY(40);
+    }
+}

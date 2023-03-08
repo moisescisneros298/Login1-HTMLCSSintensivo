@@ -88,4 +88,13 @@ section .box .cuadrado:nth-child(5) {
   width: 60px;
   height: 60px;
   z-index: 2;
+}
+
+@keyframes animate {
+  0%, 100% {
+    transform: translateY(-40px);
+  }
+  50% {
+    transform: translateY(40);
+  }
 }/*# sourceMappingURL=style.css.map */
